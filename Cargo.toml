@@ -7,8 +7,16 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix-web = "2"
+actix-rt = "1"
+crossbeam-channel = "0.4.0"
 failure = "0.1.6"
+futures = "0.3.4"
+image = "0.22.5"
+imageproc = "0.19.2"
 lazy_static = "1.4.0"
 opencv = "0.29.2"
 rascam = "0.0.2"
-tflite = "0.8.0"
+rusttype = "0.7.9"
+tflite = { git = "https://github.com/johnsnewby/tflite-rs" }
+zerocopy = "0.2.8"
